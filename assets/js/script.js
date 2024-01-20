@@ -47,5 +47,16 @@ function showSection(element) {
     const target = element.getAttribute("href").split("#")[1];
     //  console.log(target)
     document.querySelector("#" + target).classList.add("active")
+}
 
+/*  ===================  Nav Toggler Button =========== */
+
+const navTogglerBtn = document.querySelector(".nav-toggler"),
+aside = document.querySelector(".aside");
+navTogglerBtn.addEventListener("click", function() {
+    asideSectionTogglerBtn();
+})
+
+function asideSectionTogglerBtn(){
+    aside.classList.toggle("open");
 }
