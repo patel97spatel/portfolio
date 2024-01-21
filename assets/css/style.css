@@ -773,7 +773,11 @@
      } */
 
      .aside.open {
-        left: 0;
+         left: 0;
+     }
+
+     .aside .nav-toggler.open {
+         left: 300px;
      }
 
      .aside .nav-toggler {
@@ -782,7 +786,11 @@
      }
 
      .section {
-        left: 0;
+         left: 0;
+     }
+
+     .section.open {
+         left: 270px;
      }
 
      .about .about-content .personal-info .info-item p span {
